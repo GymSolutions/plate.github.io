@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleDisplayName</key>
+    <string>plate.</string>
+    <key>CFBundleIdentifier</key>
+    <string>com.example.plate</string>
+    <key>CFBundleName</key>
+    <string>plate</string>
+    <key>CFBundleShortVersionString</key>
+    <string>1.0</string>
+    <key>CFBundleVersion</key>
+    <string>1</string>
+    <key>UILaunchScreen</key>
+    <dict/>
+    <key>NSCameraUsageDescription</key>
+    <string>plate uses the camera to analyze meals you choose to log.</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>plate uses photos you choose to analyze meals you want to log.</string>
+</dict>
+</plist>

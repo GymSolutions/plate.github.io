@@ -1,0 +1,102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AA000001 /* plateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100001 /* plateApp.swift */; };
+		AA000002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100002 /* ContentView.swift */; };
+		AA000003 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100003 /* Models.swift */; };
+		AA000004 /* AIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100004 /* AIService.swift */; };
+		AA000005 /* CameraView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA100005 /* CameraView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AA100000 /* plate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "plate.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA100001 /* plateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = plateApp.swift; sourceTree = "<group>"; };
+		AA100002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA100003 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		AA100004 /* AIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIService.swift; sourceTree = "<group>"; };
+		AA100005 /* CameraView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraView.swift; sourceTree = "<group>"; };
+		AA100006 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AA200001 /* Frameworks */ = {isa = PBXFrameworksBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AA300001 = {isa = PBXGroup; children = (
+			AA100001,
+			AA100002,
+			AA100003,
+			AA100004,
+			AA100005,
+			AA100006,
+		); path = plate; sourceTree = "<group>"; };
+		AA300002 = {isa = PBXGroup; children = (AA300001); sourceTree = "<group>"; };
+		AA300003 /* Products */ = {isa = PBXGroup; children = (AA100000); name = Products; sourceTree = "<group>"; };
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AA400001 /* plate */ = {isa = PBXNativeTarget; buildConfigurationList = AA500002; buildPhases = (
+			AA200002,
+			AA200001,
+			AA200003,
+		); buildRules = (); dependencies = (); name = plate; productName = plate; productReference = AA100000; productType = "com.apple.product-type.application"; };
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AA600001 /* Project object */ = {isa = PBXProject; attributes = { LastUpgradeCheck = 1600; TargetAttributes = { AA400001 = { CreatedOnToolsVersion = 16.0; }; }; }; buildConfigurationList = AA500001; compatibilityVersion = "Xcode 14.0"; developmentRegion = en; hasScannedForEncodings = 0; knownRegions = (en); mainGroup = AA300002; productRefGroup = AA300003; projectDirPath = ""; projectRoot = ""; targets = (AA400001); };
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AA200002 /* Sources */ = {isa = PBXSourcesBuildPhase; buildActionMask = 2147483647; files = (
+			AA000001,
+			AA000002,
+			AA000003,
+			AA000004,
+			AA000005,
+		); runOnlyForDeploymentPostprocessing = 0; };
+		AA200003 /* Resources */ = {isa = PBXResourcesBuildPhase; buildActionMask = 2147483647; files = (); runOnlyForDeploymentPostprocessing = 0; };
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		AA700001 /* Debug */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = plate/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.plate;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; name = Debug; };
+		AA700002 /* Release */ = {isa = XCBuildConfiguration; buildSettings = {
+			ALWAYS_SEARCH_USER_PATHS = NO;
+			CLANG_ENABLE_MODULES = YES;
+			CURRENT_PROJECT_VERSION = 1;
+			GENERATE_INFOPLIST_FILE = NO;
+			INFOPLIST_FILE = plate/Info.plist;
+			IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+			LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+			PRODUCT_BUNDLE_IDENTIFIER = com.example.plate;
+			PRODUCT_NAME = "$(TARGET_NAME)";
+			SWIFT_VERSION = 5.0;
+			TARGETED_DEVICE_FAMILY = "1,2";
+		}; name = Release; };
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AA500001 /* Project configs */ = {isa = XCConfigurationList; buildConfigurations = (AA700001, AA700002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+		AA500002 /* Target configs */ = {isa = XCConfigurationList; buildConfigurations = (AA700001, AA700002); defaultConfigurationIsVisible = 0; defaultConfigurationName = Release; };
+/* End XCConfigurationList section */
+	};
+	rootObject = AA600001 /* Project object */;
+}
